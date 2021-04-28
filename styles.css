@@ -1,6 +1,8 @@
+/* Fonts */
+
 @font-face {
-    font-family: "Roboto";
-    src: url("/Fonts/Roboto/Roboto-Black.ttf") format("truetype"),
+  font-family: "Roboto";
+  src: url("/Fonts/Roboto/Roboto-Black.ttf") format("truetype"),
     url("/Fonts/Roboto/Roboto-BlackItalic.ttf") format("truetype"),
     url("/Fonts/Roboto/Roboto-Bold.ttf") format("truetype"),
     url("/Fonts/Roboto/Roboto-BoldItalic.ttf") format("truetype"),
@@ -15,8 +17,8 @@
 }
 
 @font-face {
-    font-family: "Open Sans";
-    src: url("/Fonts/Open\ Sans/OpenSans-Bold.ttf") format("truetype"),
+  font-family: "Open Sans";
+  src: url("/Fonts/Open\ Sans/OpenSans-Bold.ttf") format("truetype"),
     url("/Fonts/Open\ Sans/OpenSans-BoldItalic.ttf") format("truetype"),
     url("/Fonts/Open\ Sans/OpenSans-ExtraBold.ttf") format("truetype"),
     url("/Fonts/Open\ Sans/OpenSans-Italic.ttf") format("truetype"),
@@ -28,8 +30,8 @@
 }
 
 @font-face {
-    font-family: "Merriweather";
-    src: url("/Fonts/Merriweather/Merriweather-Black.ttf") format("truetype"),
+  font-family: "Merriweather";
+  src: url("/Fonts/Merriweather/Merriweather-Black.ttf") format("truetype"),
     url("/Fonts/Merriweather/Merriweather-BlackItalic.ttf") format("truetype"),
     url("/Fonts/Merriweather/Merriweather-Bold.ttf") format("truetype"),
     url("/Fonts/Merriweather/Merriweather-BoldItalic.ttf") format("truetype"),
@@ -39,14 +41,69 @@
     url("/Fonts/Merriweather/Merriweather-Regular.ttf") format("truetype");
 }
 
-body {
-    font-family: "Open Sans", sans-serif;
+/* Box Sizing */
+
+* {
+  box-sizing: border-box;
 }
 
+/* Body styles */
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: coral;
+}
+
+/* Header styles */
+
 h1 {
-    font-family: "Merriweather", sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    font-style: bold;
-    text-align: center;
+  font-family: "Merriweather", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  font-style: bold;
+  text-align: center;
+}
+
+/* section styles */
+
+section {
+  border: 3px solid black;
+  padding-left: 20px;
+  margin: 20px;
+}
+
+h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    font-style: italic;
+  }
+
+/* Colors section styles */
+
+.DarkBlue {
+  background-color: #00008b;
+  color: white;
+  text-align: center;
+  width: 300px;
+  display: inline-block;
+  margin: 20px 40px;
+}
+
+.FloralWhite {
+  background-color: #fffaf0;
+  color: black;
+  text-align: center;
+  width: 300px;
+  display: inline-block;
+  margin: 20px 40px;
+}
+
+.LightGray {
+  background-color: #d3d3d3;
+  color: black;
+  text-align: center;
+  width: 300px;
+  display: inline-block;
+  margin: 20px 40px;
 }
