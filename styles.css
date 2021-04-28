@@ -69,6 +69,7 @@ section {
   border: 3px solid black;
   padding-left: 20px;
   margin: 20px;
+  font-size: 18px;
 }
 
 h2 {
@@ -136,4 +137,31 @@ h2 {
 
 .italic {
     font-style: italic;
+}
+
+/* Text Styles section styles */
+
+.MainHeading {
+    font-family: "Merriweather";
+}
+
+.MainHeading h3 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.SubHeading {
+    font-family: "Roboto";
+}
+
+.SubHeading h3 {
+    font-size: 30px;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.Paragrapg {
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 500;
 }
