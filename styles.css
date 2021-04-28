@@ -38,3 +38,15 @@
     url("/Fonts/Merriweather/Merriweather-LightItalic.ttf") format("truetype"),
     url("/Fonts/Merriweather/Merriweather-Regular.ttf") format("truetype");
 }
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+    font-family: "Merriweather", sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    font-style: bold;
+    text-align: center;
+}
