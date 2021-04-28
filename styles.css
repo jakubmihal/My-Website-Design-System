@@ -60,7 +60,6 @@ h1 {
   font-family: "Merriweather", sans-serif;
   font-weight: 700;
   font-size: 36px;
-  font-style: bold;
   text-align: center;
 }
 
@@ -106,4 +105,35 @@ h2 {
   width: 300px;
   display: inline-block;
   margin: 20px 40px;
+}
+
+/* Fonts section styles */
+
+.Roboto {
+    font-family: "Roboto";
+    width: 330px;
+    display: inline-block;
+    margin: 0px 20px 20px;
+}
+
+.OpenSans {
+    font-family: "Open Sans";
+    width: 330px;
+    display: inline-block;
+    margin: 0px 20px 20px;
+}
+
+.Merriweather {
+    font-family: "Merriweather";
+    width: 330px;
+    display: inline-block;
+    margin: 0px 20px 20px;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.italic {
+    font-style: italic;
 }
