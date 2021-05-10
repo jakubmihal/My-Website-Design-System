@@ -153,6 +153,10 @@ h2 {
     font-family: "Merriweather";
 }
 
+.MainHeading h1 {
+  text-align: left;
+}
+
 .MainHeading h3 {
     font-size: 36px;
     font-weight: 700;
